@@ -5,6 +5,7 @@
 		<span class="header">bucket<span><br>
 		<span class="header-big">challenge<span> 
 	</div>
+	<div class="marke">Who challenged <span id="changer" class="changer">Messi</span> ?</div>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
@@ -130,3 +131,24 @@ function packageImports(nodes) {
 
 </script>
 </div>
+<div style="text-align:center;">
+<div class="fb-comments" data-href="http://theicebucketchallenge.herokuapp.com/" data-width="700" data-numposts="10" data-colorscheme="light"></div>
+</div>
+<script>
+var words = ["Messi","Adam Levine","Bill Gates","Jennifer Lopez", "Cristiano Ronaldo","Robert Downey Jr","James Franco", "Taylor Swift","Justin Timberlake","Chris Martin","Gwyneth Paltrow","Hugh Jackman", "Rooney Mara","Garrett Hedlund", "Russell Crowe","Kate Upton","Justin Verlander","Anna Kendrick", "Garth Brooks", "James Franco", "Ben Affleck","Chris Pratt","Oprah Winfrey", "Jennifer Lopez", "adam Levine","Hoda Kotb"];
+var i = 0;
+var text = "Messi";
+function _getChangedText() {
+    i = (i + 1) % words.length;
+    console.log(words[i]);
+    console.log(i);
+    return text.replace(/Messi/, words[i]);
+}
+function _changeText() {
+    var txt = _getChangedText();
+    console.log(txt);
+    document.getElementById("changer").innerHTML = txt;
+}
+setInterval("_changeText()", 1000);
+</script>
+
