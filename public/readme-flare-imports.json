@@ -1,7 +1,9 @@
 [
 {"name":"flare.actor.Brad Pit","size":3938,"imports":["flare.actor.Roman"]},
-{"name":"flare.actor.Roman","size":3812,"imports":["flare.actor.Brad Pit","flare.actor.Abajo"]},
-{"name":"flare.actor.Nadie","size":9714,"imports":["flare.actor.Abajo"]},
-{"name":"flare.actor.Alguno","size":6714,"imports":["flare.actor.Roman"]},
-{"name":"flare.actor.Abajo","size":743,"imports":[]}
+{"name":"flare.actor.Roman","size":512,"imports":["flare.actor.Brad Pit","flare.actor.Marcelo Tinelli"]},
+{"name":"flare.actor.Marcelo Tinelli","size":9714,"imports":["flare.actor.Pocho"]},
+{"name":"flare.actor.Superman","size":6714,"imports":["flare.actor.Roman"]},
+{"name":"flare.actor.Pocho","size":3812,"imports":["flare.actor.Brad Pit","flare.actor.Lopilato"]},
+{"name":"flare.actor.Lopilato","size":9714,"imports":["flare.actor.Marcelo Tinelli", "flare.actor.Pocho", "flare.actor.Kun Aguero"]},
+{"name":"flare.actor.Kun Aguero","size":743,"imports":[]}
 ]

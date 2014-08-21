@@ -9,11 +9,11 @@
 }
 
 .node:hover {
-  fill: #000;
+  fill: #3a3c40;
 }
 
 .link {
-  stroke: steelblue;
+  stroke: #407dd8;
   stroke-opacity: .4;
   fill: none;
   pointer-events: none;
@@ -26,7 +26,7 @@
 }
 
 .node--source {
-  fill: #2ca02c;
+  fill: #2ca02c; 
 }
 
 .node--target {
@@ -40,9 +40,44 @@
 }
 
 .link--source {
-  stroke: #d62728;
+  stroke: #d84048;
 }
 
 .link--target {
-  stroke: #2ca02c;
+  stroke: #6ba26b;
+}
+
+
+.header {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	color: #3a3c40;
+	line-height: 60px;
+}
+
+.header-blue{
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	color: #407dd8;
+	}
+
+.header-big {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 69px;
+	color: #3a3c40;
+}
+
+.top{
+	margin-top:50px;
+}
+
+svg {
+    position: relative;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
