@@ -80,6 +80,9 @@ svg {
 	-webkit-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
+	
+	margin-top: 0px;
+	
 }
 
 #changer{
@@ -90,3 +93,26 @@ svg {
 	padding-top: 15px;
 	font-size: 20px;
 }
+
+.menu{
+	width:700px;
+	padding-top:20px;
+	position: absolute;
+	display: block;
+ 	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+  	
+  	z-index:1;
+}
+
+
+.btn-custom {
+	font-family: 'Oswald', sans-serif;
+ 	 border-radius: 0;
+ 	 border-color: #e8e8e8;
+ 	 -webkit-transition: background linear 350ms;
+   &:hover { background-color: #9fbbe5; border-color: #e8e8e8; -webkit-transition: background linear 350ms;}
+}
+
