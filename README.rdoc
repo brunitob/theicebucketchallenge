@@ -1,28 +1,7 @@
-== README
+== Little ICE BUCKET project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+http://s10.postimg.org/4s9vyxzw9/Screenshot_2015_08_06_20_59_15.png
 
-Things you may want to cover:
+http://s30.postimg.org/5qatok04h/Screenshot_2015_08_06_21_12_47.png
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+http://d3js.org/
